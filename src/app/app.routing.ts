@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: '.pages/public/public.module#PublicModule'
+    loadChildren: './pages/public/public.module#PublicModule'
   }
 ];
 
