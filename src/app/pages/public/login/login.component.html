@@ -1,3 +1,5 @@
-<p>
-  login works!
-</p>
+<form [formGroup]="formLogin" (submit)="submitFormLogin()">
+  <input type="email" formControlName="email">
+  <input type="password" formControlName="password">
+  <button type="submit">Entrar</button>
+</form>

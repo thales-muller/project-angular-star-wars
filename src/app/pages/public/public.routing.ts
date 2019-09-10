@@ -23,6 +23,10 @@ const publicRoutes: Routes = [
             {
                 path: 'about',
                 loadChildren: './about/about.module#AboutModule'
+            },
+            {
+                path:'login',
+                loadChildren:'./login/login.module#LoginModule'
             }
         ]
     }
